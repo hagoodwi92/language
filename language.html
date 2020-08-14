@@ -9,25 +9,26 @@
 </head>
 <body>
   <div class="container">
-    <h1>Programming Language Selector- Version 2.0</h1>
+    <h1>Programming Language Selector</h1>
+    <h4>-Version 2.0</h4>
     <p>Choosing your first programming language is an important decision that all new programmers face.</p>
     <p>Answers the questions below to discover the best progamming language for you to start with.</p>
     <h3>Questions:</h3>
     <form id="form0ne">
       <div class="radio">
-        <p>What weather do you prefer?</p>
+        <p>What programming subject do you prefer?</p>
         <label>
-          <input type="radio" name="weather" value="rain" checked>Rain
+          <input type="radio" name="subject" value="object-oriented" checked>Object-Oriented Programming
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="weather" value="snow" checked>Snow
+          <input type="radio" name="subject" value="functional" checked>Functional Programming
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="weather" value="sun" checked>Sun
+          <input type="radio" name="subject" value="logical" checked>Logical Programming
         </label>
       </div>
       <div class="radio">
@@ -63,40 +64,48 @@
         </label>
       </div>
       <div class="radio">
-        <p>What programming subject do you prefer?</p>
+        <p>Frontend or backend?</p>
         <label>
-          <input type="radio" name="subject" value="object-oriented" checked>Object-Oriented Programming
+          <input type="radio" name="area" value="frontend" checked>Frontend
         </label>
       </div>
       <div class="radio">
         <label>
-          <input type="radio" name="subject" value="functional" checked>Functional Programming
+          <input type="radio" name="area" value="backend" checked>Backend
         </label>
+      </div>
       <div class="radio">
         <label>
-          <input type="radio" name="subject" value="logical" checked>Logical Programming
+          <input type="radio" name="area" value="either" checked> Either 
         </label>
-        <div class="radio">
-          <p>Frontend or backend?</p>
-          <label>
-            <input type="radio" name="area" value="frontend" checked>Frontend
-          </label>
-        </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="area" value="backend" checked>Backend
-          </label>
-        <div class="radio">
-          <label>
-            <input type="radio" name="area" value="either" checked> Either 
-          </label>
-          <br>
-        <button type="submit" class="btn btn-success">Submit</button>
-      </form>  
+      </div>
+      <div class="radio">
+        <p>What is your favorite weather event?</p>
+        <label>
+          <input type="radio" name="weather" value="rain" checked>Rain
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="weather" value="snow" checked>Snow
+        </label>
+      </div>
+      <div class="radio">
+        <label>
+          <input type="radio" name="weather" value="sun" checked>Sun
+        </label>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-success">Submit</button>
       
+    </form>
+    <div id="output">
       
+    </div>
       
-
+    
+    
+  
   </div>
 </body>
 </html>
