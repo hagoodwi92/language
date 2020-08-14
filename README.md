@@ -10,7 +10,7 @@ This webpage displays a form that asks the user several questions. It then uses 
 ## Setup/Installation Requirements
 
 * Here is [a link](https://github.com/hagoodwi92/language) to the repo. 
-* Clone the entire repo.
+* Clone the repo.
 * Open index.html in your desired web browser.
 * Navigate the webpage. 
 
