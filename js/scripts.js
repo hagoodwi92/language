@@ -8,21 +8,18 @@ $(document).ready(function() {
     const area = $("input:radio[name=area]:checked").val();
     const weather = $("input:radio[name=weather]:checked").val();
 
-    if (subject === "object-oriented" && punctuation === ";" && color === "blue" && area === "backend" && weather === "rain") {
+    if (subject === "object-oriented" && punctuation === ";" && color === "green" && area === "frontend" && weather === "rain") {
       $("#output").text("Your suggested language is Java!");
     } else if (color === "green" || area === "backend") {
       $("#output").text("Your suggested language is Ruby!");
-    } else if (subject === "object-oriented" && area === "backend") {
+    } else if (subject === "object-oriented" && color === "blue") {
       $("#output").text("Your suggested language is Javascript!");
     } else if (color === "red") {
       $("#output").text("Your suggested language is Python!")
     } else {
-      $("#output").text("Pick whichever you like! We aren't sure for you!");
+      $("#output").text("Your suggested language is...any language! Just get started today!");
     }
 
 
-    
-
-    
   });
 });
