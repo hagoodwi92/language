@@ -9,14 +9,14 @@
 </head>
 <body>
   <div class="container">
-    <h1>Programming Language Selector</h1>
-    <h4>-Version 2.0</h4>
-    <p>Choosing your first programming language is an important decision that all new programmers face.</p>
-    <p>Answers the questions below to discover the best progamming language for you to start with.</p>
+    <div class="jumbotron">
+      <h1>Programming Language Selector</h1>
+    </div>
+    <p class = "header"><strong>Answer the questions below to discover the best progamming language for you.</strong></p>
     <h3>Questions:</h3>
     <form id="form0ne">
       <div class="radio">
-        <p>What programming subject do you prefer?</p>
+        <h5>What programming subject do you prefer?</h5>
         <label>
           <input type="radio" name="subject" value="object-oriented" checked>Object-Oriented Programming
         </label>
@@ -32,7 +32,8 @@
         </label>
       </div>
       <div class="radio">
-        <p>What punctuation is your favorite?</p>
+        <br>
+        <h5>What punctuation is your favorite?</h5>
         <label>
           <input type="radio" name="punctuation" value=";" checked>;
         </label>
@@ -48,7 +49,8 @@
         </label>
       </div>
       <div class="radio">
-        <p>What is your favorite color?</p>
+        <br>
+        <h5>What is your favorite color?</h5>
         <label>
           <input type="radio" name="color" value="green" checked>Green
         </label>
@@ -64,7 +66,8 @@
         </label>
       </div>
       <div class="radio">
-        <p>Frontend or backend?</p>
+        <br>
+        <h5>Frontend or backend?</h5>
         <label>
           <input type="radio" name="area" value="frontend" checked>Frontend
         </label>
@@ -80,7 +83,8 @@
         </label>
       </div>
       <div class="radio">
-        <p>What is your favorite weather event?</p>
+        <br>
+        <h5>What is your favorite weather event?</h5>
         <label>
           <input type="radio" name="weather" value="rain" checked>Rain
         </label>
@@ -96,11 +100,13 @@
         </label>
       </div>
       <br>
-      <button type="submit" class="btn btn-success">Submit</button>
+      <button type="submit" class="btn btn-light">Submit</button>
       
     </form>
-    <div id="output">
+    <div class="bg-success">
+      <div id="output">
       
+      </div>
     </div>
       
     
