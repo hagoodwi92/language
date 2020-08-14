@@ -10,18 +10,18 @@ $(document).ready(function() {
 
     if (subject === "object-oriented" && punctuation === ";" && color === "blue" && area === "backend" && weather === "rain") {
       $("#output").text("Your suggested language is Java!");
-    } else if (color === "green") {
+    } else if (color === "green" || area === "backend") {
       $("#output").text("Your suggested language is Ruby!");
     } else if (subject === "object-oriented" && area === "backend") {
       $("#output").text("Your suggested language is Javascript!");
     } else if (color === "red") {
-      $("#output").text("Pick whichever you like! We aren't sure for you!");
+      $("#output").text("Your suggested language is Python!")
     } else {
-      alert("error");
+      $("#output").text("Pick whichever you like! We aren't sure for you!");
     }
 
 
-    //$("#output").text(subject);
+    
 
     
   });
